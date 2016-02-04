@@ -1,13 +1,14 @@
 * {
 	box-sizing: border-box;
-	
 
+	
 }
 
 body {
 	background: #e8e8e8;
-}
 
+
+}
 
 header {
 	background: #ffffff;
@@ -19,60 +20,56 @@ header {
 #name {
 	background: #4aaaa5;
 	font-size: 25px;	
+	padding: 25px;
 	color:#fff;
-	font-family:'Georgia', Times, Times New Roman, serif;
-	width:25%;
 	text-align: center;
-	padding:20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
 	position: absolute;
-	bottom: 0px;
-	left:150px;
+	top: 20px;
+	left: 100px;
 }
 
 #about {
 	position:absolute;
-	top:50%;
+	top:50px;
 	right:350px;
 	font-family:'Georgia', Times, Times New Roman, serif;
-	color: #909090;
-
+	font-size: 15px;
+	color: #909090;	
 }
-
 #portfolio {
 	position:absolute;
-	top:50%;
-	right:250px;
+	top:50px;
+	right: 250px;
 	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
 	color: #909090;
-
 }
-
 #contact {
 	position:absolute;
-	top:50%;
+	top:50px;
 	right:150px;
 	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
 	color: #909090;
-}
 
-div {
+	
+}
+#main-bio {
 	width: 650px;
 	padding:20px;
 	background:white;
+	overflow:auto;
 	position: relative;
 	top: 30px;
-	left:150px;
-	border: solid 1px #cccccc;
+	left:100px;
 }
-
 #aboutme {
 	font-size: 25px;
 	margin-bottom: 20px;
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color:#4aaaa5;
 	border-bottom: solid #909090 2px;
-	padding:20px;
-	width: 100%;
 
 }
 #rags {
@@ -82,34 +79,30 @@ div {
 
 }
 p {
-	text-align: justify;
+	text-align: left;
 	line-height: 150%;
-	width:100%;
 }
 #secondpara {
 	margin-top: 20px;
 }
-
 #aside {
-	background-color: white;
+	background: white;
 	width: 270px;
 	position: absolute;
-	right:150px;
+	right: 100px;
 	top: 125px;
-	padding: 20px;
-	border: solid 1px #cccccc;
+	padding:20px;
 }
 #asideheader {
-	text-align: center;
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color:#4aaaa5;
 	border-bottom: solid #909090 2px;
 	font-size: 20px;
 	padding:20px;
+	text-align: center
 }
 #git {
 	width: 75px;
-	margin-top: 20px;
 }
 #ln {
 	width: 70px;
@@ -118,20 +111,7 @@ p {
 	width:
 	70px;
 }
-footer { 
+
+footer {
 	background:#505050;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	width: 100%;
-	height: 95px;
-	border-top: 10px #4aaaa5 solid;
-}
-
-#copyright {
-	color:#909090;
-	text-align: center;
-	position:relative;
-	bottom: -30px;
-
 }
