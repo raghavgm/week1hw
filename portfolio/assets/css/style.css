@@ -16,6 +16,8 @@ header {
 	height:95px;
 		}
 
+/*Bio-Page*/
+
 #name {
 	background: #4aaaa5;
 	font-size: 25px;	
@@ -124,7 +126,7 @@ footer {
 	bottom: 0px;
 	right: 0px;
 	width: 100%;
-	height: 95px;
+	height: 70px;
 	border-top: 10px #4aaaa5 solid;
 }
 
@@ -135,7 +137,8 @@ footer {
 	bottom: -30px;
 }
 
-	/* PAGE 2 */
+	/*Contact Page*/
+
 #A {
 	background: white;
 	width: 650px;
@@ -176,4 +179,100 @@ footer {
 	width:80px;
 	padding:5px;
 	height:auto;
+}
+
+/*Portfolio Page*/
+
+#portfoliodiv {
+	background: white;
+	width: 650px;
+	position:relative;
+	left: 150px;
+	top: 30px;
+	border: solid 1px #cccccc;
+	padding: 20px;
+	height:700px;
+
+}
+#portfolio2 {
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	border-bottom: solid #909090 2px;
+	padding:20px;
+	width: 100%;
+
+}
+#nissan {
+	width: 250px;
+	
+}
+#ford {
+	width: 250px;
+	position:relative;
+	left:100px;
+	
+}
+#mclaren {
+	width: 250px;
+	
+}
+#alfa {
+	width: 250px;
+	position:relative;
+	left:100px;
+	
+}
+#porsche {
+	width:250px;
+}
+
+#hangman {
+	background: #4aaaa5;
+	position: relative;
+	top: -450px;
+	width:250px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+#rpg {
+	background: #4aaaa5;
+	position: relative;
+	top: -305px;
+	width:250px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+#racing {
+	background: #4aaaa5;
+	position: relative;
+	top: -165px;
+	width:250px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+#shooter {
+	background: #4aaaa5;
+	position: relative;
+	top: -590px;
+	left: 353px;
+	width:250px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+#sports {background: #4aaaa5;
+	position: relative;
+	top: -446px;
+	left: 353px;
+	width:250px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+
 }
