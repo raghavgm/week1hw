@@ -22,7 +22,7 @@ header {
 	color:#fff;
 	font-family:'Georgia', Times, Times New Roman, serif;
 	width:25%;
-	text-align: center;
+	text-align: left;
 	padding:20px;
 	position: absolute;
 	bottom: 0px;
@@ -133,5 +133,47 @@ footer {
 	text-align: center;
 	position:relative;
 	bottom: -30px;
+}
 
+	/* PAGE 2 */
+#A {
+	background: white;
+	width: 650px;
+	position:relative;
+	left: 150px;
+	top: 30px;
+	border: solid 1px #cccccc;
+	padding: 20px;
+}
+#form {
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	border-bottom: solid #909090 2px;
+	padding: 20px;
+	width: 100%;
+	text-align: left;
+}
+
+#fullname {
+	width: 610px;
+}
+
+#email {
+	width:610px;
+}
+
+#message {
+	width:610px;
+	height:300px;
+}
+
+#button {
+	background:#4aaaa5;
+	margin-top: 10px;
+	color:white;
+	width:80px;
+	padding:5px;
+	height:auto;
 }
